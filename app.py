@@ -6,6 +6,8 @@ import pandas as pd
 
 # init flask app
 app = Flask(__name__, template_folder = 'templates')
+
+# loading the model from the pickle file
 model = pickle.load(open("flight_rf.pkl", "rb"))
 
 @app.route("/")
