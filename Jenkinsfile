@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Verify Python Installation') {
             steps {
-                bat 'python --version'   // Check Python version on Windows
-                bat 'pip --version'      // Check pip version on Windows
+                bat '"C:\Users\rajdeep\Downloads\python-3.12.4-amd64.exe" --version'   // Check Python version on Windows
+                bat '"C:\Users\rajdeep\Downloads\python-3.12.4-amd64.exe" --version'      // Check pip version on Windows
             }
         }
 
