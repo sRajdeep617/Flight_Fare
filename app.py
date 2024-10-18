@@ -12,6 +12,7 @@ model = pickle.load(open("flight_rf.pkl", "rb"))
 
 @app.route("/")
 
+# Enables Cross-Origin Resource Sharing (CORS) for this route
 @cross_origin()
 def home():
     return render_template("home.html")
