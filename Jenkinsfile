@@ -9,10 +9,10 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                bat 'pip install -r requirements.txt'  // Install dependencies using pip
-            }
-        }
+        // stage('Install Dependencies') {
+        //     steps {
+        //         bat 'pip install -r requirements.txt'  // Install dependencies using pip
+        //     }
+        // }
     }
 }
