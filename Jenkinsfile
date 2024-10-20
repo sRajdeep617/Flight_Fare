@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     stages {
+        
         stage('Verify Python Installation') {
             steps {
                 docker.image('python:3.9').inside {
