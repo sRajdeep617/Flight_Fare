@@ -317,10 +317,9 @@ def predict():
     return render_template("home.html")
 
 @app.route('/predict_mobile', methods=['POST'])
-@cross_origin()
 def for_mobile():
     data = request.get_json()
-    
+
     # Date of departure
     date_dep = data.get("Departure_Date")
     Journey_day = int(pd.to_datetime(date_dep, format = "%Y-%m-%d").day)
