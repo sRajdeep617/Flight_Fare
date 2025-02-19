@@ -312,9 +312,9 @@ def predict():
 
         output = round(prediction[0] ,2)
 
-        return render_template('home.html', prediction_text = "Your Flight price is Rs. {}".format(output))
+        return render_template('result.html', prediction_text = "Your Flight price is Rs. {}".format(output))
 
-    return render_template("home.html")
+    return render_template("result.html")
 
 @app.route('/predict_mobile', methods=['POST'])
 def for_mobile():
