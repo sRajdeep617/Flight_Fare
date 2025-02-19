@@ -6,6 +6,7 @@ The Flight Fare Prediction project aims to predict the fare of flights based on 
 ## Features
 - **Web Application**: A user-friendly web interface to input flight details and get fare predictions.
 - **Mobile Application**: A mobile app communicating with the API to fetch flight fare predictions.
+
 - **API Endpoints**:
     - `/predict_mobile`: Endpoint for the mobile app to get flight fare predictions.
     - `/predict`: Endpoint for the web app to get flight fare predictions.
