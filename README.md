@@ -5,7 +5,8 @@ The Flight Fare Prediction project aims to predict the fare of flights based on 
 
 ## Features
 - **Web Application**: A user-friendly web interface to input flight details and get fare predictions.
-- **Mobile Application**: A mobile app that communicates with the web app to fetch flight fare predictions.
+- **Mobile Application**: A mobile app communicating with the API to fetch flight fare predictions.
+
 - **API Endpoints**:
     - `/predict_mobile`: Endpoint for the mobile app to get flight fare predictions.
     - `/predict`: Endpoint for the web app to get flight fare predictions.
@@ -22,18 +23,17 @@ The Flight Fare Prediction project aims to predict the fare of flights based on 
 
 ### Installation
 1. Clone the repository:
-        ```bash
-        git clone https://github.com/yourusername/flight-fare-prediction.git
-        cd flight-fare-prediction
         ```
-2. Install the required packages:
-        ```bash
+        git clone https://github.com/yourusername/flight-fare-prediction.git
+        ```
+3. Install the required packages:
+        ```
         pip install -r requirements.txt
         ```
 
 ### Running the Application
 1. Run the Flask application:
-        ```bash
+        ```
         python app.py
         ```
 2. Access the web application at `http://localhost:5000`.
