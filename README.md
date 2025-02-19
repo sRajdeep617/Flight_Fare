@@ -24,9 +24,8 @@ The Flight Fare Prediction project aims to predict the fare of flights based on 
 1. Clone the repository:
         ```
         git clone https://github.com/yourusername/flight-fare-prediction.git
-        cd flight-fare-prediction
         ```
-2. Install the required packages:
+3. Install the required packages:
         ```
         pip install -r requirements.txt
         ```
