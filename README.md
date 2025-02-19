@@ -22,18 +22,18 @@ The Flight Fare Prediction project aims to predict the fare of flights based on 
 
 ### Installation
 1. Clone the repository:
-        ```bash
+        ```
         git clone https://github.com/yourusername/flight-fare-prediction.git
         cd flight-fare-prediction
         ```
 2. Install the required packages:
-        ```bash
+        ```
         pip install -r requirements.txt
         ```
 
 ### Running the Application
 1. Run the Flask application:
-        ```bash
+        ```
         python app.py
         ```
 2. Access the web application at `http://localhost:5000`.
